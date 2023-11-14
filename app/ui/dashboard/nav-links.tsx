@@ -2,7 +2,7 @@
  * @Author: Jahidul Haque Shanto
  * @Date:   2023-11-13 09:58:44
  * @Last Modified by:   Jahidul Haque Shanto
- * @Last Modified time: 2023-11-14 11:59:25
+ * @Last Modified time: 2023-11-14 12:12:14
  */
 'use client'
 
@@ -26,7 +26,7 @@ const links = [
   },
   {name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon},
 ]
-
+//this is change
 export default function NavLinks() {
   const pathname = usePathname()
   return (
